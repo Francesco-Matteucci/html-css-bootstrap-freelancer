@@ -16,16 +16,15 @@ header {
 
 
 
-.portfolio .col {
+.portfolio .col * {
+
     background-color: #BA4B63;
+    border-radius: 20px;
 }
 
 section {
-    border: 1px solid black;
     margin: 20px 0;
 }
-
-
 
 .about {
     background-color: #1ABC9C;
