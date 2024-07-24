@@ -8,8 +8,25 @@ header {
     background-color: #1ABC9C;
 }
 
-.main-title .img-cont {
-    width: 250px;
-    height: 250px;
+.img-cont {
+    width: 200px;
+    height: 200px;
     background-color: #fff;
+}
+
+
+
+.portfolio .col {
+    background-color: #BA4B63;
+}
+
+section {
+    border: 1px solid black;
+    margin: 20px 0;
+}
+
+
+
+.about {
+    background-color: #1ABC9C;
 }
