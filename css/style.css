@@ -22,10 +22,38 @@ header {
     border-radius: 20px;
 }
 
-section {
-    margin: 20px 0;
-}
+
 
 .about {
     background-color: #1ABC9C;
+}
+
+input {
+    height: 2em;
+}
+
+.message {
+    padding-bottom: 5em;
+}
+
+.bootstrap-form :last-child a {
+    background-color: #1ABC9C;
+}
+
+.address-footer {
+    background-color: #3A546D;
+}
+
+.address-footer i {
+    display: inline-block;
+    line-height: 100%;
+}
+
+.address-footer span {
+    color: #1ABC9C;
+}
+
+.bottom-footer {
+    background-color: #2C3E50;
+    height: 80px;
 }
