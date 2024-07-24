@@ -1,0 +1,15 @@
+header {
+    height: 100px;
+    background-color: #2C3E50;
+}
+
+.main-title {
+
+    background-color: #1ABC9C;
+}
+
+.main-title .img-cont {
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+}
