@@ -1,6 +1,15 @@
+img {
+    width: 100%;
+    display: block;
+}
+
 header {
     height: 100px;
     background-color: #2C3E50;
+}
+
+.header li {
+    cursor: pointer;
 }
 
 .main-title {
@@ -10,19 +19,12 @@ header {
 
 .img-cont {
     width: 200px;
-    height: 200px;
-    background-color: #fff;
 }
-
-
 
 .portfolio .col * {
 
-    background-color: #BA4B63;
     border-radius: 20px;
 }
-
-
 
 .about {
     background-color: #1ABC9C;
@@ -32,14 +34,6 @@ input {
     height: 2em;
 }
 
-.message {
-    padding-bottom: 5em;
-}
-
-.bootstrap-form :last-child a {
-    background-color: #1ABC9C;
-}
-
 .address-footer {
     background-color: #3A546D;
 }
@@ -47,6 +41,7 @@ input {
 .address-footer i {
     display: inline-block;
     line-height: 100%;
+    cursor: pointer;
 }
 
 .address-footer span {
@@ -56,4 +51,23 @@ input {
 .bottom-footer {
     background-color: #2C3E50;
     height: 80px;
+}
+
+.form-section .form-control {
+    border: 0;
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 0;
+}
+
+.form-section button {
+    background-color: #1ABC9C;
+
+}
+
+.line-container {
+    width: 250px;
+}
+
+.line-bootstrap {
+    height: 3px;
 }
